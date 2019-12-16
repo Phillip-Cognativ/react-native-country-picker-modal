@@ -103,7 +103,7 @@ const FlagWithSomething = memo(
   },
 )
 
-interface FlagButtonProps {
+export interface FlagButtonProps {
   withEmoji?: boolean
   withCountryNameButton?: boolean
   withCurrencyButton?: boolean
